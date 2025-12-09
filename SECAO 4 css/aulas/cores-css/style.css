@@ -1,0 +1,62 @@
+body {
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#nomesDeCores {
+    color: red;
+}
+
+.rgb {
+    color: rgb(2, 40, 8);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#hexadecimal2 {
+    color: #148;
+}
+
+#hexadecimal {
+    color: #ff0000;
+    text-shadow: #000 2px 1px 2px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: 0;
+}
+
+H4 {
+    color: aqua;
+}
+
+
+/*nomes de cores*/
+
+.p {
+    color: brown;
+}
+
+#a1{
+    color: aqua;
+}
+
+#a2{
+    color: blueviolet;
+}
+
+#a3{
+    color: chartreuse;
+}

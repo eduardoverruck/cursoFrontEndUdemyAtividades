@@ -1,0 +1,52 @@
+html
+
+DOCTYPE declara a versao do html
+
+html envolve todo o codigo html
+
+head é tudo que não aparece, config
+
+body tudo que é visto
+
+-------
+TÍTULOS
+-------
+
+de h1 até h6
+
+
+
+----------
+PARAGRAFOS
+----------
+
+cada paragrafo começa com uma nova linha
+
+esse comportamento acontece com todas as tags de bloco
+
+
+
+
+-----------------
+TAGS SEM CONTEÚDO
+-----------------	
+
+TEM FUNCIONALIDADES
+
+HR > linha horizontal
+
+br > quebra de linha
+
+
+
+
+
+---------
+ATRIBUTOS
+---------
+
+Utilizados para adicionar funcionalidades as tags
+
+responsáveis por nos direcionar a uma nova página ou site
+
+

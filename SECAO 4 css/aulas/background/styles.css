@@ -1,0 +1,24 @@
+p {
+    background-color: tomato;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+div {
+    border: 1px solid black;
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.backgroundDeImagem{
+    background-image: url("images/048b44ed88eea709856dd1013a69c11b.jpeg");
+}
+
+.temImagemDeFundo {
+    width: 500px;
+    height: 500px;
+    background-image: url("images/buracoNegro.jpeg");
+    background-position: center;
+    background-size: contain;
+}

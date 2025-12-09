@@ -1,0 +1,15 @@
+h4{
+    width: fit-content;
+    font-family: monospace;
+    box-shadow: 4px;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+}
+
+.imagemFundo{
+    width: 700px;
+    height: 400px;
+    
+}
+

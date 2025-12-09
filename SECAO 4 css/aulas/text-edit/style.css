@@ -1,0 +1,116 @@
+body {
+    background-image: url(fundo\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;    /* deixa a imagem parada */
+}
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: lime;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.serif {
+    font-family: serif;
+}
+
+/*peso da fonte*/
+/*
+ quanto maior o numero mais negrito fica a fonte
+*/
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.font-weight-100 {
+    font-weight: 100;
+}
+
+.w1 {
+    font-weight: 100 !important;
+}
+
+.w5 {
+    font-weight: 500;
+}
+
+.w9 {
+    font-weight: 900;
+}
+
+.fontGrande {
+    font-size: 40px;
+}
+
+.fontPequena {
+    font-size: 10px;
+}
+
+button {
+    font-size: 10px;
+    margin: 0 auto;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.box1 {
+    border-radius: 4px;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.boxinha {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+span {
+    background-color: yellowgreen;
+    width: 50px;
+    display: block;
+}

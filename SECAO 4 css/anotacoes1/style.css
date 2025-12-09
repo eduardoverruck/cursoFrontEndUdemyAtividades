@@ -1,0 +1,19 @@
+h2 {
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: inline-block;
+    width: auto;
+    padding: 3px;
+}
+
+.titulo {
+    background-color: blue;
+    color: aliceblue;
+}
+
+#titulo {
+    background-color: red;
+    color: black;
+}
