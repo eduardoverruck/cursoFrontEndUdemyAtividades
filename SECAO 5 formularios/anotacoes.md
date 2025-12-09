@@ -6,3 +6,6 @@ responsaveis por receber dados e enviar para o servidor
 
 label descreve os inputs
 
+**fieldsets**
+usados para agrupar varios inputs relacionados
+

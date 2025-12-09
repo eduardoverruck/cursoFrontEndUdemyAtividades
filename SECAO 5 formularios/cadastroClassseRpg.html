@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classe Rpg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body">
+    <form id="fundoSection1">
+
+        <h1>Cadastro de personagem</h1>
+
+        <div class="divInputsVariados">
+            <label for="caixaDeSelecao">Selecione a sua classe</label>
+            <select name="caixaDeSelecao">
+                <option selected></option>
+                <option value="guerreiro">guerreiro</option>
+                <option value="mago">mago</option>
+                <option value="arqueiro">arqueiro</option>
+                <option value="elfo">elfo</option>
+            </select>
+        </div>
+
+        <div class="divInputsVariados">
+            <label for="bioPersonagem">Descreva o seu personagem</label>
+            <textarea name="bioPersonagem"></textarea>
+        </div>
+
+        <div class="divInputsVariados">
+            <label for="regiao">Região do Personagem</label>
+            <input type="text" name="regiao" list="regioes">
+            <datalist id="regioes">
+                <option value="Norte"></option>
+                <option value="Montanhas"></option>
+                <option value="Praia"></option>
+                <option value="Campos"></option>
+                <option value="Capital"></option>
+            </datalist>
+        </div>
+
+        <div class="divInputsVariados">
+            <label for="CodigoCla">Digite o codigo do clã</label>
+            <input type="password" name="CodigoCla">
+
+        </div>
+
+        <input type="reset" value="Desistir">
+
+        <div class="divInputsVariados">
+            <label for="honra">Digite se o seu Personagem tem honra</label>
+            <label for="temHonra">Tem honra</label>
+            <input type="radio">
+            <label for="temHonra">Não tem honra</label>
+            <input type="radio">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
